@@ -36,11 +36,7 @@ export default function About({ lang }: Props) {
                 :<div style={{textAlign:'center',color:'var(--muted)',fontFamily:'var(--mono)',fontSize:'.78rem',padding:'2rem'}}><div style={{fontSize:'3rem',marginBottom:'.5rem'}}>👤</div>Agrega /public/images/mi-foto.jpg</div>
               }
             </div>
-            {!img2Err&&(
-              <div style={{borderRadius:'10px',overflow:'hidden',border:'1px solid var(--border)',aspectRatio:'16/7',background:'var(--bg2)'}}>
-                <img src={personal.avatarAlt} alt="Oscar alt" onError={()=>setImg2Err(true)} style={{width:'100%',height:'100%',objectFit:'cover'}}/>
-              </div>
-            )}
+            
             <div style={{display:'grid',gridTemplateColumns:'repeat(2,1fr)',gap:'.8rem'}}>
               {stats.map(s=>(
                 <div key={s.num} style={{background:'var(--bg3)',border:'1px solid var(--border)',borderRadius:'10px',padding:'1rem',textAlign:'center',transition:'border-color .2s,transform .2s'}}
