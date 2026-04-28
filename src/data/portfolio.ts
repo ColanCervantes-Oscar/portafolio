@@ -169,11 +169,11 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-  { name:'Effetha', url:'https://effetha.com/', descriptionEs:'Plataforma digital — diseño, desarrollo y SEO completo.', descriptionEn:'Digital platform — full design, development and SEO.', tags:['React','Node.js','SEO'], logo:'/images/marcas/effetha.png', color:'#63b3ed' },
-  { name:'Consigue Ventas', url:'https://consigueventas.com/', descriptionEs:'Agencia digital especializada en ventas online.', descriptionEn:'Digital agency specialized in online sales.', tags:['React','Marketing','CRM'], logo:'/images/marcas/consigueventas.png', color:'#76e4a7' },
-  { name:'TICorp Perú', url:'https://ticorperu.net/', descriptionEs:'Soluciones tecnológicas corporativas para Perú.', descriptionEn:'Corporate tech solutions for Peru.', tags:['TypeScript','Node.js','AWS'], logo:'/images/marcas/ticorperu.png', color:'#f6ad55' },
-  { name:'Kare Salud Renal', url:'https://karesaludrenal.com/', descriptionEs:'Plataforma de salud digital enfocada en riñones.', descriptionEn:'Digital health platform focused on renal care.', tags:['React','Accesibilidad'], logo:'/images/marcas/kare.png', color:'#fc8181' },
-  { name:'PV Electrónica', url:'https://pvelectronica.consigueventas.com/', descriptionEs:'E-commerce de electrónica bajo Consigue Ventas.', descriptionEn:'Electronics e-commerce under Consigue Ventas.', tags:['E-commerce','React'], logo:'/images/marcas/pvelectronica.png', color:'#b794f4' },
+  { name:'Effetha', url:'https://effetha.com/', descriptionEs:'Plataforma digital — diseño, desarrollo y SEO completo.', descriptionEn:'Digital platform — full design, development and SEO.', tags:['Wordpress','Elementor','SEO'], logo:'/images/marcas/effetha.png', color:'#63b3ed' },
+  { name:'Consigue Ventas', url:'https://consigueventas.com/', descriptionEs:'Agencia digital especializada en ventas online.', descriptionEn:'Digital agency specialized in online sales.', tags: ['WordPress', 'Marketing Digital', 'E-commerce'], logo:'/images/marcas/consigueventas.png', color:'#76e4a7' },
+  { name:'TICorp Perú', url:'https://ticorperu.net/', descriptionEs:'Soluciones tecnológicas corporativas para Perú.', descriptionEn:'Corporate tech solutions for Peru.', tags:['WordPress', 'Elementor', 'SEO'], logo:'/images/marcas/ticorperu.png', color:'#f6ad55' },
+  { name:'Kare Salud Renal', url:'https://karesaludrenal.com/', descriptionEs:'Plataforma de salud digital enfocada en riñones.', descriptionEn:'Digital health platform focused on renal care.', tags:['WordPress', 'Elementor', 'Salud Digital'], logo:'/images/marcas/kare.png', color:'#fc8181' },
+  { name:'PV Electrónica', url:'https://pvelectronica.consigueventas.com/', descriptionEs:'E-commerce de electrónica bajo Consigue Ventas.', descriptionEn:'Electronics e-commerce under Consigue Ventas.', tags:['E-commerce', 'WooCommerce', 'WordPress'], logo:'/images/marcas/pvelectronica.png', color:'#b794f4' },
 ]
 
 export interface SkillGroup {
